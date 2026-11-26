@@ -1,4 +1,6 @@
 package com.example.mydatasiswa.uicontroller.route
 
-interface Destinasinavigasi {
+interface DestinasiNavigasi {
+    val route: String
+    val titleRes: Int
 }
