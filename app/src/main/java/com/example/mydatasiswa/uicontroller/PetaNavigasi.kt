@@ -16,7 +16,10 @@ fun DataSiswaApp(
     navController: NavHostController = rememberNavController(),
     modifier: Modifier = Modifier
 ) {
-    HostNavigasi(navController = navController)
+    HostNavigasi(
+        navController = navController,
+        modifier = modifier
+    )
 }
 
 @Composable
